@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    const a[5];
-    const b[5];
-    scanf("%s", &a);
-    scanf("%s", &b);
+    const str[10];
+    const str2[10];
+    scanf("%s", &str);
+    scanf("%s", &str2);
     printf("You entered: %s", a "and" b);
     return 0;
 }
