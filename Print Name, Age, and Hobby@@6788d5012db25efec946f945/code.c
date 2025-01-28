@@ -4,11 +4,11 @@
 int main() {
     char n[100],h[100];
     int a;
-    scanf("%c", n);
+    scanf("%s", n);
     scanf("%d", a);
-    scanf("%c", h);
-    printf("Name: %c", n);
+    scanf("%s", h);
+    printf("Name: %s", n);
     printf("Age: %d", a);
-    printf("Hobby: %c", h);
+    printf("Hobby: %s", h);
     return 0;
 }
