@@ -3,11 +3,11 @@
 int main() {
     char n[100],h[100];
     int a;
-    scanf("%s", n);
+    scanf("%c", n);
     scanf("%d", a);
-    scanf("%s", h);
-    printf("Name: %s", n);
+    scanf("%c", h);
+    printf("Name: %c", n);
     printf("Age: %d", a);
-    printf("Hobby: %s", h);
+    printf("Hobby: %c", h);
     return 0;
 }
