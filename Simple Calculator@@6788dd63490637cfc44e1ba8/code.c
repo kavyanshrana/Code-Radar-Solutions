@@ -20,11 +20,9 @@ int main() {
         printf("%d", a/b);
         }
         else{
-            printf("Error");
+            printf("error");
         }
         break;
-        default:
-        printf("Error");
     }
     return 0;
 }
