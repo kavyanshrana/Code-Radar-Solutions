@@ -1,10 +1,14 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    printf("%s", welcome());
+    int a;
+    scanf("%d", &a);
+    int msb=1<<31;
+    if(a&msb){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
     return 0;
 }
